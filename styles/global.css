@@ -1,0 +1,31 @@
+body {
+	padding-top: 80px;
+}
+
+.container {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 18px;
+}
+
+h1 {
+	text-align: center;
+	padding-bottom: 20px;
+	color: #6b3856;
+}
+
+.card-footer {
+	background-color: #6b3856 !important;
+	color: #ffffff;
+}
+
+.card {
+	border: 3px solid #6b3856 !important;
+	border-radius: 5px !important;
+}
+.card-title {
+	color: #2e4052;
+}
+.card-body {
+	background-color: #ffb41f;
+	border-top: 1px solid black;
+}
