@@ -1,7 +1,3 @@
-body {
-	padding-top: 80px;
-}
-
 .container {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 18px;
@@ -10,12 +6,15 @@ body {
 h1 {
 	text-align: center;
 	padding-bottom: 20px;
+	padding-top: 20px;
 	color: #6b3856;
 }
 
 .card-footer {
 	background-color: #6b3856 !important;
 	color: #ffffff;
+	border-bottom-right-radius: 10px !important;
+	border-bottom-left-radius: 10px !important;
 }
 
 .card-footer a {
@@ -24,18 +23,30 @@ h1 {
 
 .card {
 	border: 3px solid #6b3856 !important;
-	border-radius: 5px !important;
+	border-radius: 20px !important;
 }
 
 .card-title {
-	color: #2e4052;
+	color: black;
+	font-weight: bold;
 }
 .card-body {
 	background-color: #ffb41f;
-	border-top: 1px solid black;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
 }
 
 footer {
 	text-align: center;
 	padding-top: 20px;
+}
+
+.card-img-top {
+	border-top-left-radius: 15px !important;
+	border-top-right-radius: 15px !important;
+}
+
+body,
+html {
+	background-color: rgb(216, 173, 104) !important;
 }
